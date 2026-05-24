@@ -20,4 +20,8 @@ describe("Calculadora de cadenas", () => {
   it("deberia sumar numeros separados por coma y guion", () => {
     expect(sumar("1-2,3")).toEqual(6);
   });
+
+  it("deberia sumar numeros usando un delimitador personalizado", () => {
+    expect(sumar("//[;] 6;7;4")).toEqual(17);
+  });
 });

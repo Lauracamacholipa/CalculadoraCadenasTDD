@@ -104,9 +104,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2d5f4674d2984433ca9b47faefecb86ef8469e05",
     "commitName": "test: soportar separador guion en la cadena",
     "commitTimestamp": 1779588414035,
     "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1779588600052,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779588690950,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: soportar delimitador personalizado simple",
+    "commitTimestamp": 1779588702736,
+    "testId": 5
   }
 ]

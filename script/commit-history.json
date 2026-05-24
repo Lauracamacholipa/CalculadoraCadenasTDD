@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2d5f4674d2984433ca9b47faefecb86ef8469e05",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T02:06:51.000Z",
       "message": "test: soportar separador guion en la cadena",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/2d5f4674d2984433ca9b47faefecb86ef8469e05"
     },
     "stats": {
       "total": 6,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T02:11:38.000Z",
+      "message": "test: soportar delimitador personalizado simple",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }
