@@ -68,9 +68,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2a58f470dee4538528a6f40c1e1e8c61c426bb54",
     "commitName": "test: implementar suma de dos numeros separados por coma",
     "commitTimestamp": 1779587800369,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779588136142,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: agregar caso de varios numeros separados por coma",
+    "commitTimestamp": 1779588185911,
+    "testId": 3
   }
 ]
