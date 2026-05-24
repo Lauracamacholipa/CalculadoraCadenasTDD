@@ -1,5 +1,7 @@
-function sumar(a, b) {
-  return a + b;
+function sumar(cadena) {
+  if (cadena === "") {
+    return 0;
+  }
 }
 
 export default sumar;

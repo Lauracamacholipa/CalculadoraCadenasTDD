@@ -1,0 +1,32 @@
+[
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779585278100,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 0,
+    "failedTests": 1,
+    "numTotalTests": 1,
+    "timestamp": 1779586447527,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1779586613928,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: implementar cadena vacia retorna cero",
+    "commitTimestamp": 1779586636824,
+    "testId": 0
+  }
+]
