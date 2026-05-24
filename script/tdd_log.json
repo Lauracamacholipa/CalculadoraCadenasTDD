@@ -126,9 +126,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c5be6b56d406be16f20bdad3f9a1701b49612b04",
     "commitName": "test: soportar delimitador personalizado simple",
     "commitTimestamp": 1779588702736,
     "testId": 5
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 1,
+    "numTotalTests": 7,
+    "timestamp": 1779588939003,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1779589041519,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: combinar delimitador personalizado con separadores base",
+    "commitTimestamp": 1779589051007,
+    "testId": 6
   }
 ]

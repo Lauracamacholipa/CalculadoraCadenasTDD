@@ -10,7 +10,11 @@ function sumar(cadena) {
     const delimitador = cadena.slice(3, posicionCierre);
     const secuenciaNumeros = cadena.slice(posicionCierre + 1).trim();
 
-    numeros = secuenciaNumeros.split(delimitador);
+    const secuenciaNormalizada = secuenciaNumeros
+      .split(delimitador)
+      .join(",");
+
+    numeros = secuenciaNormalizada.split(/[,-]/);
   } else {
     numeros = cadena.split(/[,-]/);
   }
