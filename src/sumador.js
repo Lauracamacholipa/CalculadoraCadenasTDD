@@ -3,21 +3,27 @@ function sumar(cadena) {
     return 0;
   }
 
-  let numeros;
+  let secuenciaNumeros = cadena;
+  let delimitadores = [",", "-"];
 
   if (cadena.startsWith("//[")) {
-    const posicionCierre = cadena.indexOf("]");
-    const delimitador = cadena.slice(3, posicionCierre);
-    const secuenciaNumeros = cadena.slice(posicionCierre + 1).trim();
+    const coincidencia = cadena.match(/^\/\/((?:\[[^\]]+\])+)\s*(.*)$/);
 
-    const secuenciaNormalizada = secuenciaNumeros
-      .split(delimitador)
-      .join(",");
+    const definicionDelimitadores = coincidencia[1];
+    secuenciaNumeros = coincidencia[2];
 
-    numeros = secuenciaNormalizada.split(/[,-]/);
-  } else {
-    numeros = cadena.split(/[,-]/);
+    const delimitadoresPersonalizados = [
+      ...definicionDelimitadores.matchAll(/\[([^\]]+)\]/g),
+    ].map((resultado) => resultado[1]);
+
+    delimitadores = [...delimitadores, ...delimitadoresPersonalizados];
   }
+
+  delimitadores.forEach((delimitador) => {
+    secuenciaNumeros = secuenciaNumeros.split(delimitador).join(",");
+  });
+
+  const numeros = secuenciaNumeros.split(",");
 
   return numeros.reduce((suma, numero) => {
     const valor = Number(numero);

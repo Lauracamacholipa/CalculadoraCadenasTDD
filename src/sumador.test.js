@@ -36,7 +36,10 @@ describe("Calculadora de cadenas", () => {
   it("deberia incluir el numero 1000 en la suma", () => {
     expect(sumar("2,1000,1001")).toEqual(1002);
   });
-    it("deberia soportar un delimitador personalizado de varios caracteres", () => {
+  it("deberia soportar un delimitador personalizado de varios caracteres", () => {
     expect(sumar("//[***] 1***2***3")).toEqual(6);
+  });
+  it("deberia soportar multiples delimitadores personalizados", () => {
+    expect(sumar("//[*][%] 1*2%3,7-9")).toEqual(22);
   });
 });

@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "255a4f18e7f6d8826fe919d663fa60e6c6ab8808",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T12:26:46.000Z",
       "message": "test: verificar delimitador personalizado largo",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/255a4f18e7f6d8826fe919d663fa60e6c6ab8808"
     },
     "stats": {
       "total": 3,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T12:32:49.000Z",
+      "message": "test: soportar multiples delimitadores personalizados",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 20,
+      "deletions": 11,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

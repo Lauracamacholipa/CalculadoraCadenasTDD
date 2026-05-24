@@ -198,9 +198,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "255a4f18e7f6d8826fe919d663fa60e6c6ab8808",
     "commitName": "test: verificar delimitador personalizado largo",
     "commitTimestamp": 1779625612585,
     "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1779625696799,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779625919187,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: soportar multiples delimitadores personalizados",
+    "commitTimestamp": 1779625974745,
+    "testId": 10
   }
 ]
