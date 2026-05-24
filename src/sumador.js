@@ -3,7 +3,9 @@ function sumar(cadena) {
     return 0;
   }
 
-  return Number(cadena);
+  const numeros = cadena.split(",");
+
+  return numeros.reduce((suma, numero) => suma + Number(numero), 0);
 }
 
 export default sumar;

@@ -46,9 +46,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b4a15c3b01d3e8e7cdb1b84d843c2ca26fcc6810",
     "commitName": "test: implementar cadena con un solo numero",
     "commitTimestamp": 1779587568004,
     "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1779587644517,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779587781879,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: implementar suma de dos numeros separados por coma",
+    "commitTimestamp": 1779587800369,
+    "testId": 2
   }
 ]

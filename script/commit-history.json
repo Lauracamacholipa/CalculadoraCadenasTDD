@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b4a15c3b01d3e8e7cdb1b84d843c2ca26fcc6810",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T01:52:45.000Z",
       "message": "test: implementar cadena con un solo numero",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/b4a15c3b01d3e8e7cdb1b84d843c2ca26fcc6810"
     },
     "stats": {
       "total": 6,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T01:56:36.000Z",
+      "message": "test: implementar suma de dos numeros separados por coma",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
