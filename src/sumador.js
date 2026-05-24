@@ -19,7 +19,15 @@ function sumar(cadena) {
     numeros = cadena.split(/[,-]/);
   }
 
-  return numeros.reduce((suma, numero) => suma + Number(numero), 0);
+  return numeros.reduce((suma, numero) => {
+    const valor = Number(numero);
+
+    if (valor > 1000) {
+      return suma;
+    }
+
+    return suma + valor;
+  }, 0);
 }
 
 export default sumar;

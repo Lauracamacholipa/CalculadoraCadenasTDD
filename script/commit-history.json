@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "29bef1bcffee97795d935e6470672f82af151492",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T02:17:28.000Z",
       "message": "test: combinar delimitador personalizado con separadores base",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/29bef1bcffee97795d935e6470672f82af151492"
     },
     "stats": {
       "total": 10,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T12:22:11.000Z",
+      "message": "test: ignorar numeros mayores a mil",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
