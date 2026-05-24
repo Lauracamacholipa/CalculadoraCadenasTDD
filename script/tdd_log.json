@@ -24,9 +24,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c66c4428d76913a71977963566ee0d0a44bbeb2d",
     "commitName": "test: implementar cadena vacia retorna cero",
     "commitTimestamp": 1779586636824,
     "testId": 0
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1779587409736,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1779587555871,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: implementar cadena con un solo numero",
+    "commitTimestamp": 1779587568004,
+    "testId": 1
   }
 ]

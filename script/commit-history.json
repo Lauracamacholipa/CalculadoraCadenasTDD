@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "c66c4428d76913a71977963566ee0d0a44bbeb2d",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T01:37:14.000Z",
       "message": "test: implementar cadena vacia retorna cero",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/c66c4428d76913a71977963566ee0d0a44bbeb2d"
     },
     "stats": {
       "total": 18,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T01:52:45.000Z",
+      "message": "test: implementar cadena con un solo numero",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 2,
     "failed_tests": 0,
     "conclusion": "success"
   }
