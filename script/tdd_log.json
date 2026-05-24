@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9b6928f5d2fef7e02fb68ce7864b08908ad01ec4",
     "commitName": "test: agregar caso de varios numeros separados por coma",
     "commitTimestamp": 1779588185911,
     "testId": 3
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1779588288553,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779588398776,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: soportar separador guion en la cadena",
+    "commitTimestamp": 1779588414035,
+    "testId": 4
   }
 ]

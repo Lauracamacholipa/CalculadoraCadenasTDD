@@ -16,4 +16,8 @@ describe("Calculadora de cadenas", () => {
   it("deberia sumar varios numeros separados por coma", () => {
     expect(sumar("1,2,3")).toEqual(6);
   });
+
+  it("deberia sumar numeros separados por coma y guion", () => {
+    expect(sumar("1-2,3")).toEqual(6);
+  });
 });
