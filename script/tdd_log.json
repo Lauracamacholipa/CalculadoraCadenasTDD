@@ -170,9 +170,23 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c5218613b1c5de2f5ddfabf6a3a0a47636eeb03e",
     "commitName": "test: ignorar numeros mayores a mil",
     "commitTimestamp": 1779625338252,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779625483331,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar limite permitido de mil",
+    "commitTimestamp": 1779625514872,
+    "testId": 8
   }
 ]

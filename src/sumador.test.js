@@ -32,4 +32,8 @@ describe("Calculadora de cadenas", () => {
   it("deberia ignorar numeros mayores a 1000", () => {
     expect(sumar("2,1001")).toEqual(2);
   });
+
+  it("deberia incluir el numero 1000 en la suma", () => {
+    expect(sumar("2,1000,1001")).toEqual(1002);
+  });
 });

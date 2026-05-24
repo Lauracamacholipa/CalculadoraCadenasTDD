@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c5218613b1c5de2f5ddfabf6a3a0a47636eeb03e",
     "author": "Laura Camacho",
     "commit": {
       "date": "2026-05-24T12:22:11.000Z",
       "message": "test: ignorar numeros mayores a mil",
-      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/c5218613b1c5de2f5ddfabf6a3a0a47636eeb03e"
     },
     "stats": {
       "total": 14,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Laura Camacho",
+    "commit": {
+      "date": "2026-05-24T12:25:06.000Z",
+      "message": "test: verificar limite permitido de mil",
+      "url": "https://github.com/Lauracamacholipa/CalculadoraCadenasTDD/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-05-24"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
