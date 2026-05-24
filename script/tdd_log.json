@@ -184,9 +184,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80e627d19ab69a7a709287ffb7f7e0690612e06d",
     "commitName": "test: verificar limite permitido de mil",
     "commitTimestamp": 1779625514872,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1779625575882,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar delimitador personalizado largo",
+    "commitTimestamp": 1779625612585,
+    "testId": 9
   }
 ]
